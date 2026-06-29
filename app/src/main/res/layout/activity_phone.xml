@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_tl"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:shrinkColumns="*"
+    android:stretchColumns="2">
+    <TableRow android:id="@+id/manufacturer_row"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/manufacturer_label_tv"
+            android:text="@string/napis">
+        </TextView>
+        <EditText android:layout_span="2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/manufacturer_et">
+        </EditText>
+    </TableRow>
+
+
+
+
+    <TableRow android:id="@+id/model_row"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/model_label_tv"
+            android:text="@string/model_telefonu">
+        </TextView>
+        <EditText android:layout_span="2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/model_et">
+        </EditText>
+    </TableRow>
+
+
+    <TableRow android:id="@+id/android_version_row"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/android_version_label_tv"
+            android:text="@string/android_version_text">
+        </TextView>
+        <EditText android:layout_span="2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/android_version_et">
+        </EditText>
+    </TableRow>
+
+
+    <TableRow android:id="@+id/Website_row"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Website_label_tv"
+            android:text="@string/Website_text">
+        </TextView>
+        <EditText android:layout_span="2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Website_et">
+        </EditText>
+    </TableRow>
+
+    <TableRow>
+        <Button android:id="@+id/web_site_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/set"
+            app:cornerRadius="8dp"
+            />
+        <Button android:id="@+id/cancel_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cancel_text"
+            app:cornerRadius="8dp"
+            />
+
+        <Button android:id="@+id/save_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/save_txt"
+            app:cornerRadius="8dp"
+            />
+
+    </TableRow>
+
+</TableLayout>

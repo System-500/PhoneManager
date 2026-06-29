@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">LAB2</string>
+    <string name="napis">Producent:</string>
+    <string name="model_telefonu">Model telefonu:</string>
+    <string name="android_version_text">Model androida:</string>
+    <string name="Website_text">Adres www:</string>
+    <string name="set">Idż do strony</string>
+    <string name="cancel_text">Anuluj</string>
+    <string name="save_txt">Zapisz</string>
+    <string name="Clear_all">Clear all data</string>
+</resources>
