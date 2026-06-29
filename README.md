@@ -11,7 +11,7 @@ A functional Android application designed for managing a database of smartphones
     * Action Bar with a menu for bulk data deletion.
     * Back navigation with arrow support.
     * Detailed input form with validation.
-* **Data Persistence:** Database state is preserved during configuration changes (e.g., screen rotation).
+* **Data Persistence:** Database state is preserved during configuration changes .
 * **External Integration:** Dedicated button to open a phone's official website.
 
 ##  Technology Stack
@@ -21,6 +21,6 @@ A functional Android application designed for managing a database of smartphones
 * **Language:** Java.
 
 ##  Key Features Implementation
-* **Validation:** Custom validation for all input fields (Manufacturer, Model, Android Version, URL).
+* **Validation:** Custom validation for all input fields.
 * **Communication:** `ActivityResultLauncher` used for smooth transitions between activities.
 * **Responsiveness:** Designed to work correctly in both portrait and landscape modes.
